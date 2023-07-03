@@ -6,7 +6,7 @@ import { Articles } from "./pages/Articles";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <h1>Server-side rendering example</h1>
       <ul>
         <li>
@@ -30,7 +30,7 @@ const App = () => {
           <Articles />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </>
   );
 }
 
